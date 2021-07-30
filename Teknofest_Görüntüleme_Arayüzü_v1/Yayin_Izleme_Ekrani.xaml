@@ -1,0 +1,18 @@
+﻿<Window x:Class="Teknofest_Görüntüleme_Arayüzü_v1.Yayin_Izleme_Ekrani"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Teknofest_Görüntüleme_Arayüzü_v1"
+        mc:Ignorable="d"
+        Title="Yayin Izleme Ekrani" Height="450" Width="400" x:Name="Yayin_Ekrani">
+    <Grid>
+        
+        <Button x:Name="takimi_izle" Click="takimi_izle_Click"  Content="Takımı İzle" Height="45" Margin="100,0" FontSize="30" FontFamily="Segoe UI Emoji" Foreground="White" Opacity="1" Background="#FF5B725A"/>
+        <ComboBox x:Name="cmbBox" HorizontalAlignment="Left" Margin="133,98,0,0" VerticalAlignment="Top" Width="120"/>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\PC_1951\Desktop\Teknofest_Görüntüleme_Arayüzü_v1\Teknofest_Görüntüleme_Arayüzü_v1\Images\savasan_iha.png" Opacity="0.5"></ImageBrush>
+        </Grid.Background>
+    </Grid>
+</Window>
